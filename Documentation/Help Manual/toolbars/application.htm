@@ -1,4 +1,4 @@
-<html>
+﻿<html>
 
 <head>
 <meta http-equiv="Content-Language" content="en-us">
@@ -6,7 +6,7 @@
 <meta name="ProgId" content="FrontPage.Editor.Document">
 <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
 <title>Toolbars/Application Toolbar</title>
-<link rel="stylesheet" type="text/css" href="../explorer++.css">
+<link rel="stylesheet" type="text/css" href="../Win32Explorer.css">
 <script language="javascript" src="../rollover.js"> </script>
 </head>
 
@@ -14,7 +14,7 @@
 
 <h2 class="Heading_2_no_table"><a name="top"></a>
 <a href="../mnu_view/toolbars.htm">Toolbars</a>/Application Toolbar</h2>
-<p>For general information about <b>Explorer++</b>'s toolbars, ie. moving, 
+<p>For general information about <b>Win32Explorer</b>'s toolbars, ie. moving, 
 resizing, customizing, etc., see the toolbars <a href="overview.htm">Overview</a>.</p>
 <p>
 <img border="0" src="../images/toolbars/app_toolbar.png" width="225" height="24"></p>
@@ -77,7 +77,7 @@ of course).&nbsp; This function is the same as clicking the button.</p>
   not an executable (eg. a text or <i>.txt</i> file), clicking the application's 
   button on the Application toolbar will open the file in any registered 
   application.&nbsp; For example, selecting this CHM file (eg. <i>C:\Program 
-  Files\Explorer++\Explorer++ Help.chm</i>) will open the file using the Windows
+  Files\Win32Explorer\Win32Explorer Help.chm</i>) will open the file using the Windows
   <b>hh.exe</b> (Html Help executable) application.</p>
   <p>&nbsp;</p>
   <h4><a name="open_findapp"></a>Open (find executable)</h4>
@@ -128,19 +128,19 @@ be edited from this dialog.</p>
     Application buttons are normally placed on the Application toolbar in the 
     order they are created.&nbsp; Through judicious use of the Regedit 
     application, they may be re-ordered.<ol>
-      <li>open Regedit and navigate to HKEY_CURRENT_USER\Software\Explorer++\ApplicationToolbar</li>
+      <li>open Regedit and navigate to HKEY_CURRENT_USER\Software\Win32Explorer\ApplicationToolbar</li>
       <li>select the <b>ApplicationToolbar</b> key in the left panel, and <b>
       Export</b> its contents to a suitable location using the context menu</li>
       <li>edit the file to renumber the sub-keys (application buttons).&nbsp; 
       They must always be numbered 0, 1, 2, etc.&nbsp; The first button is 0, 
       the second is 1, and so on.&nbsp; The actual order they appear in (inside 
       the file) is not important.</li>
-      <li><b>make sure Explorer++ is closed</b></li>
+      <li><b>make sure Win32Explorer is closed</b></li>
       <li>Double-click on the edited file to re-enter the data into the 
       registry.</li>
       <li>That's it!</li>
     </ol>
-    <p>A similar technique applies to using <b>Explorer++</b> as a portable 
+    <p>A similar technique applies to using <b>Win32Explorer</b> as a portable 
     application - edit the <b>config.xml</b> file to re-order the application 
     button lines.&nbsp; A number is not used; the order of the lines (under &lt;ApplicationToolbar&gt;) 
     determines the button order.</td>
@@ -152,3 +152,4 @@ be edited from this dialog.</p>
 </body>
 
 </html>
+

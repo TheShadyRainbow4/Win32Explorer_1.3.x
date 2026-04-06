@@ -1,4 +1,4 @@
-<html>
+﻿<html>
 
 <head>
 <meta http-equiv="Content-Language" content="en-us">
@@ -6,7 +6,7 @@
 <meta name="ProgId" content="FrontPage.Editor.Document">
 <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
 <title>Revision History - v0.9.0.0</title>
-<link rel="stylesheet" type="text/css" href="../explorer++.css">
+<link rel="stylesheet" type="text/css" href="../Win32Explorer.css">
 </head>
 
 <body>
@@ -24,16 +24,16 @@
 <h3>Version 0.9.0.0 (30/01/2009)</h3>
 <p class="hist_hdg">New features:</p>
 <ul>
-  <li><b>Explorer++</b> is now built as a Unicode executable.</li>
-  <li><b>Explorer++</b> can now save its settings to an XML preference file 
+  <li><b>Win32Explorer</b> is now built as a Unicode executable.</li>
+  <li><b>Win32Explorer</b> can now save its settings to an XML preference file 
   (config.xml).</li>
-  <li><b><a name="xml"></a>Explorer++</b> will attempt to load its settings in 
+  <li><b><a name="xml"></a>Win32Explorer</b> will attempt to load its settings in 
   the following order:<ol>
-    <li>config.xml (this file must be in the same directory as <b>Explorer++</b>)</li>
+    <li>config.xml (this file must be in the same directory as <b>Win32Explorer</b>)</li>
     <li>
     <p style="margin-bottom: -16">the registry</li>
   </ol>
-  <p>If neither of these options are available, <b>Explorer++</b> will switch to 
+  <p>If neither of these options are available, <b>Win32Explorer</b> will switch to 
   using its internal defaults. To save to the config file initially, check the
   <i>Save preferences to XML file</i> in the 'Options' dialog.</li>
   <li>Significantly upgraded bookmarks system.</li>
@@ -49,7 +49,7 @@
   Tab...'.</li>
   <li>'Lock Tab and Address' now works. This option, when selected, will block 
   any directory changes from occurring within the current tab.</li>
-  <li>Folder shortcuts are now opened within <b>Explorer++</b>.</li>
+  <li>Folder shortcuts are now opened within <b>Win32Explorer</b>.</li>
   <li>When in thumbnails view, image thumbnails are now gathered independently 
   of the main thread.</li>
   <li>Added 'Open Parent in New Tab' menu item to tab context menu.</li>
@@ -84,7 +84,7 @@
   <li>When creating a new tab without the 'auto arrange' style, auto arrange 
   would be set anyway. Fixed.</li>
   <li>Fixed selection bug.</li>
-  <li>When items (such as executable files) are opened from within <b>Explorer++</b>, 
+  <li>When items (such as executable files) are opened from within <b>Win32Explorer</b>, 
   their start directory is now set to the directory they reside within.</li>
   <li>Fixed several small memory leaks that occurred when closing a tab.</li>
   <li>Improved synchronization between threads.</li>
@@ -97,14 +97,14 @@
   <li>Pressing the space bar will now cause whichever item in the listview has 
   focus to be selected. If not item has focus, the first item is selected.</li>
   <li>Paths specified on the command line no longer need a trailing backslash. 
-  For example, the commands: <font color="#9900FF">explorer++.exe C:\</font> and
-  <font color="#9900FF">explorer++.exe C:</font> will both open the C:\ 
+  For example, the commands: <font color="#9900FF">Win32Explorer.exe C:\</font> and
+  <font color="#9900FF">Win32Explorer.exe C:</font> will both open the C:\ 
   directory in its own tab.</li>
   <li>A command line usage message can now be shown by typing:
-  <font color="#9900FF">explorer++.exe /?</font></li>
+  <font color="#9900FF">Win32Explorer.exe /?</font></li>
   <li>Slight changes have been made to the structure of the registry keys used 
   to save program settings. These changes mean that tabs saved in previous 
-  versions of <b>Explorer++</b> will not load in this version.</li>
+  versions of <b>Win32Explorer</b> will not load in this version.</li>
 </ul>
 <p><a title="Top of page" href="#top" style="background-color:transparent">
 <img border="0" src="../images/common/arrow_top.gif" width="23" height="23"></a></p>
@@ -112,3 +112,4 @@
 </body>
 
 </html>
+

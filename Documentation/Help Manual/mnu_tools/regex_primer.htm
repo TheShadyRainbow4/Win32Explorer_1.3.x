@@ -1,4 +1,4 @@
-<html>
+ï»¿<html>
 
 <head>
 <meta http-equiv="Content-Language" content="en-us">
@@ -6,14 +6,14 @@
 <meta name="ProgId" content="FrontPage.Editor.Document">
 <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
 <title>Tools/Search.../Regular Expression Primer</title>
-<link rel="stylesheet" type="text/css" href="../explorer++.css">
+<link rel="stylesheet" type="text/css" href="../Win32Explorer.css">
 </head>
 
 <body>
 
 <h2><a name="top"></a><a href="../nav/mnu-tools.htm">Tools</a>/<img border="0" src="../images/icons/search.png" hspace="5" width="16" height="16"><a href="search.htm">Search...</a>/Regular 
 Expression Primer</h2>
-<p><b>Explorer++</b>'s <b>Search</b> tool can search for files and folders using 
+<p><b>Win32Explorer</b>'s <b>Search</b> tool can search for files and folders using 
 regular expressions, but this concept might be foreign to some users.&nbsp; This 
 primer hopes to shed enough light on the subject to allow you to use regular 
 expressions - at least in a simple form - in the <b>Search</b> too.&nbsp; For 
@@ -31,7 +31,7 @@ and replacing text are not used.</p>
     Be mindful of what you read on the Internet; regular Expressions are 
     somewhat platform/application specific.&nbsp; While common behaviours exist, 
     some platforms/applications introduce syntax which may not work in <b>
-    Explorer++</b>.&nbsp; For the most part, the Search dialog uses a subset of
+    Win32Explorer</b>.&nbsp; For the most part, the Search dialog uses a subset of
     <a class="EXTlnk" title="MSDN page" target="_blank" href="http://msdn.microsoft.com/en-us/library/bb982727.aspx">
     TR1 Regular Expressions</a>.</td>
   </tr>
@@ -51,7 +51,7 @@ distinct categories:</p>
   but are a <i>coded representation</i> of text sequences to find.</li>
 </ul>
 <p>Meta-characters generally consist of the following characters:
-<font face="Courier New" size="3">ˆ $ . * \ [ ] { } ( ) + ? |</font></p>
+<font face="Courier New" size="3">ï¿½ $ . * \ [ ] { } ( ) + ? |</font></p>
 <p>Some other characters might also be considered meta-characters when used in a 
 special context.&nbsp; Meta-characters may also be used as literals (with a 
 special syntax) if needed.&nbsp; Unfortunately, implementations of regular 
@@ -60,7 +60,7 @@ operating system), but the basic set of instructions should be the same.&nbsp;
 For the purposes of <b>Search</b>, we will only consider basic searching.</p>
 <p>&nbsp;</p>
 <h3>Do I need to know Regular Expressions?</h3>
-<p>The short answer is probably not - since with <b>Explorer++</b> we are only 
+<p>The short answer is probably not - since with <b>Win32Explorer</b> we are only 
 searching for file and folder names, likely the conventional method of searching 
 (limited wildcards, text) may be sufficient.&nbsp; But regular expressions can 
 accommodate that <i>weird</i> search that you might need to do and can also be 
@@ -79,7 +79,7 @@ element (mini-rule), the text - in the target string - that caused the match is
 considered <i>thrown away</i>, and is not used again..&nbsp; If <b>any</b> of 
 the rules fail - that is, the anticipated pattern of text is not found - then 
 the whole regular expression is considered to have failed (no pattern match).&nbsp; 
-In <b>Explorer++</b>'s <b>Search</b> tool, if a pattern match is made (subject 
+In <b>Win32Explorer</b>'s <b>Search</b> tool, if a pattern match is made (subject 
 to a match also with file attributes and case as set in the dialog), the file is 
 listed in the results pane.&nbsp; Also, in this context (matching file/folder 
 names), <span style="background-color: #FFFFDD">the regular expression must 
@@ -156,7 +156,7 @@ C) for more elements and details.</p>
     <td width="117">backslash</td>
     <td>when it precedes a meta-character, the combination is taken as a 
     literal.&nbsp; Some meta-characters<font face="Courier New" size="3">,</font> 
-    namely <font face="Courier New" size="3">ˆ$.[]{}()+</font>, may be used in 
+    namely <font face="Courier New" size="3">ï¿½$.[]{}()+</font>, may be used in 
     file/folder names.</td>
     <td width="280"><font face="Courier New">a\.txt</font> matches <b>a.txt</b></td>
   </tr>
@@ -273,3 +273,4 @@ C) for more elements and details.</p>
 </body>
 
 </html>
+

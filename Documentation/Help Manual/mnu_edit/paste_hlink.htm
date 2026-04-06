@@ -1,4 +1,4 @@
-<html>
+﻿<html>
 
 <head>
 <meta http-equiv="Content-Language" content="en-us">
@@ -6,7 +6,7 @@
 <meta name="ProgId" content="FrontPage.Editor.Document">
 <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
 <title>Edit/Paste Hard Link</title>
-<link rel="stylesheet" type="text/css" href="../explorer++.css">
+<link rel="stylesheet" type="text/css" href="../Win32Explorer.css">
 </head>
 
 <body>
@@ -38,7 +38,7 @@ completely accurate in its representation of the MFT entry or file structure.</p
 contains all file attributes (timestamps, read-only flag, etc.) and in turn 
 points to the actual file data.&nbsp; When the hard link is created, it points 
 to the <b>same</b> MFT entry, but could have a different name.&nbsp; The <b>
-Explorer++</b> function - <i>Paste Hard Link</i> - always creates the hard link 
+Win32Explorer</b> function - <i>Paste Hard Link</i> - always creates the hard link 
 with the original file name; obviously, then it cannot be created in the 
 original folder or else a naming conflict will exist.&nbsp; Since the original 
 name and hard link name use the same MFT entry, etc., changes to either file 
@@ -58,7 +58,7 @@ hard link count was 1, ie. no additional hard links to the file exist.</p>
 <p>Hard links may <b>only</b> be created for files on the same volume (ie. the 
 same drive letter); attempting to paste a hard link to a file on a different 
 volume results in a true copy of the file.</p>
-<p><b>Explorer++</b> can view the hard link count by enabling <i>Hard links</i> 
+<p><b>Win32Explorer</b> can view the hard link count by enabling <i>Hard links</i> 
 as a <a href="../mnu_view/sel_col.htm">column heading</a> in the files pane.</p>
 <p>If you use hard links frequently, you might consider a useful freeware tool -
 <a class="EXTlnk" title="http://schinagl.priv.at/nt/hardlinkshellext/hardlinkshellext.html" target="_blank" href="http://schinagl.priv.at/nt/hardlinkshellext/hardlinkshellext.html">
@@ -84,3 +84,4 @@ links to a file, something that Windows can't do!</p>
 </body>
 
 </html>
+

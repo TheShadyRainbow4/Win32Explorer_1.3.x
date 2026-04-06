@@ -1,4 +1,4 @@
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+﻿<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
 <HTML>
 <HEAD>
 <meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
@@ -7,7 +7,7 @@
 <UL>
 	<LI> <OBJECT type="text/sitemap">
 		<param name="Name" value="About">
-		<param name="Local" value="misc/about_explorer++.htm">
+		<param name="Local" value="misc/about_Win32Explorer.htm">
 		<param name="Local" value="misc/about_help.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
@@ -472,3 +472,4 @@
 		</OBJECT>
 </UL>
 </BODY></HTML>
+

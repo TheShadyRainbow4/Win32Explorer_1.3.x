@@ -1,4 +1,4 @@
-<html>
+ï»¿<html>
 
 <head>
 <meta http-equiv="Content-Language" content="en-us">
@@ -6,7 +6,7 @@
 <meta name="ProgId" content="FrontPage.Editor.Document">
 <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
 <title>Actions/Destroy Files...</title>
-<link rel="stylesheet" type="text/css" href="../explorer++.css">
+<link rel="stylesheet" type="text/css" href="../Win32Explorer.css">
 <script language="javascript" src="../rollover.js"> </script>
 </head>
 
@@ -197,16 +197,16 @@ comparison:</p>
       <td width="65" align="right" rowspan="2"><b>1-pass</b> </td>
       <td width="64" align="right">Drive 1:</td>
       <td width="10" valign="top">&nbsp;</td>
-      <td align="center" width="90"><font face="Arial">± 2.1 sec</font></td>
-      <td align="center" width="90"><font face="Arial">± 19.6 sec</font></td>
-      <td align="center" width="90"><font face="Arial">± 3.2 min</font></td>
+      <td align="center" width="90"><font face="Arial">ï¿½ 2.1 sec</font></td>
+      <td align="center" width="90"><font face="Arial">ï¿½ 19.6 sec</font></td>
+      <td align="center" width="90"><font face="Arial">ï¿½ 3.2 min</font></td>
     </tr>
     <tr>
       <td width="64" align="right">Drive 2:</td>
       <td width="10" valign="top">&nbsp;</td>
-      <td align="center" width="90"><font face="Arial">± 1.8 sec.</font></td>
-      <td align="center" width="90"><font face="Arial">± 16.0 sec</font></td>
-      <td align="center" width="90"><font face="Arial">± 2.6 min</font></td>
+      <td align="center" width="90"><font face="Arial">ï¿½ 1.8 sec.</font></td>
+      <td align="center" width="90"><font face="Arial">ï¿½ 16.0 sec</font></td>
+      <td align="center" width="90"><font face="Arial">ï¿½ 2.6 min</font></td>
     </tr>
     <tr>
       <td width="409" valign="top" align="right" colspan="6">&nbsp;</td>
@@ -215,16 +215,16 @@ comparison:</p>
       <td width="65" align="right" rowspan="2"><b>3-pass</b> </td>
       <td width="64" align="right">Drive 1:</td>
       <td width="10" valign="top">&nbsp;</td>
-      <td align="center" width="90"><font face="Arial">± 9.9 sec</font></td>
-      <td align="center" width="90"><font face="Arial">± 1.6 min</font></td>
-      <td align="center" width="90"><font face="Arial">± 16.0 min</font></td>
+      <td align="center" width="90"><font face="Arial">ï¿½ 9.9 sec</font></td>
+      <td align="center" width="90"><font face="Arial">ï¿½ 1.6 min</font></td>
+      <td align="center" width="90"><font face="Arial">ï¿½ 16.0 min</font></td>
     </tr>
     <tr>
       <td width="64" align="right">Drive 2:</td>
       <td width="10" valign="top">&nbsp;</td>
-      <td align="center" width="90"><font face="Arial">± 8.5 sec.</font></td>
-      <td align="center" width="90"><font face="Arial">± 1.4 min</font></td>
-      <td align="center" width="90"><font face="Arial">± 14.0 min</font></td>
+      <td align="center" width="90"><font face="Arial">ï¿½ 8.5 sec.</font></td>
+      <td align="center" width="90"><font face="Arial">ï¿½ 1.4 min</font></td>
+      <td align="center" width="90"><font face="Arial">ï¿½ 14.0 min</font></td>
     </tr>
   </table>
 </blockquote>
@@ -235,16 +235,16 @@ listed hardware, one could estimate the secure deletion times as</p>
   <li>2 seconds/megabyte for 1-pass, and</li>
   <li>10 seconds/megabyte for 3-pass.</li>
 </ul>
-<p>This means that deleting a DVD image file (± 4 Gb), for example, using 3-pass 
+<p>This means that deleting a DVD image file (ï¿½ 4 Gb), for example, using 3-pass 
 secure deletion, could take as long as 11.5 hours!&nbsp; Sleep on it!</p>
 <p>&nbsp;</p>
 <h3><a name="termination"></a>Early termination</h3>
 <p>On the <a href="#hardware">hardware</a> listed above, the Windows Task 
-Manager reports that <b>Explorer++</b> is using between 95% and 99% of the CPU 
+Manager reports that <b>Win32Explorer</b> is using between 95% and 99% of the CPU 
 time during a <b>Destroy File(s)</b> operation, despite the fact that the 
 process is operating at <i>Normal</i> priority.&nbsp; The effect of this is that</p>
 <ul>
-  <li>the appearance of <b>Explorer++</b> (not the <b>Destroy File(s)</b> 
+  <li>the appearance of <b>Win32Explorer</b> (not the <b>Destroy File(s)</b> 
   dialog) is that of a program that has &quot;stopped responding to the system&quot;, and</li>
   <li>attempting to switch to another application (via the taskbar) and do 
   something else is a waste of time.</li>
@@ -254,15 +254,15 @@ process is operating at <i>Normal</i> priority.&nbsp; The effect of this is that
 Task Manager by</p>
 <ol>
   <li>opening the Task Manager using <b>Ctrl+Alt+Delete</b></li>
-  <li>selecting the process <b>Explorer++.exe</b></li>
+  <li>selecting the process <b>Win32Explorer.exe</b></li>
   <li>clicking <i>End Process</i></li>
   <li>agreeing to the warning dialog</li>
 </ol>
-<p>The effect of this is to forcefully close <b>Explorer++</b> and, of course, 
+<p>The effect of this is to forcefully close <b>Win32Explorer</b> and, of course, 
 the <b>Destroy File(s)</b> dialog (a child window), freeing up your system 
 resources.&nbsp; However, take note that</p>
 <ul>
-  <li>settings for <b>Explorer++</b> (ie. open tabs, views, etc.) may not have 
+  <li>settings for <b>Win32Explorer</b> (ie. open tabs, views, etc.) may not have 
   been saved, and</li>
   <li>the file(s) targeted for secure deletion were, in all likelihood, damaged 
   (partially overwritten), but not fully deleted.</li>
@@ -270,7 +270,7 @@ resources.&nbsp; However, take note that</p>
 <p>&nbsp;</p>
 <h3><a name="disclaimer"></a>Disclaimer</h3>
 <p>Although the <b>Destroy File(s)</b> action is deemed to be secure, <b>
-Explorer++</b> is released under the GNU General Public
+Win32Explorer</b> is released under the GNU General Public
 <a href="../mnu_help/License.txt">License</a> and no warranty as to suitability 
 is offered.&nbsp; Section 15 of the GNU license states that the program is 
 provided &quot;as-is&quot; without warranty of any kind.</p>
@@ -283,3 +283,4 @@ find your files, you're on your own!</p>
 </body>
 
 </html>
+

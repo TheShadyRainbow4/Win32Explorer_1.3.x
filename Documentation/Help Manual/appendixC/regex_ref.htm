@@ -1,4 +1,4 @@
-<html>
+ï»¿<html>
 
 <head>
 <meta http-equiv="Content-Language" content="en-us">
@@ -6,7 +6,7 @@
 <meta name="ProgId" content="FrontPage.Editor.Document">
 <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
 <title>Appendix C/Regular Expression Reference</title>
-<link rel="stylesheet" type="text/css" href="../explorer++.css">
+<link rel="stylesheet" type="text/css" href="../Win32Explorer.css">
 </head>
 
 <body>
@@ -28,7 +28,7 @@ than one way to construct a regular expression which does a certain task.</p>
 <p>&nbsp;</p>
 <h3><a name="metachars"></a>Meta-characters</h3>
 <p>Meta-characters generally consist of the following characters:
-<font face="Courier New" size="3">ˆ $ . * \ [ ] { } ( ) + ? |<br>
+<font face="Courier New" size="3">ï¿½ $ . * \ [ ] { } ( ) + ? |<br>
 </font>Some meta-characters have more than one meaning, depending on their 
 context (e.g. <font face="Courier New">^</font> as a <a href="#negation">
 negation</a> symbol when used inside <font face="Courier New">[]</font>, or as 
@@ -164,7 +164,7 @@ important in some expressions (e.g. <font face="Courier New">\s</font>,
     <td width="117">backslash</td>
     <td>when it precedes a meta-character, the combination is taken as a 
     literal.&nbsp; Some meta-characters<font face="Courier New" size="3">,</font> 
-    namely <font face="Courier New" size="3">ˆ$.[]{}()+</font>, may be used in 
+    namely <font face="Courier New" size="3">ï¿½$.[]{}()+</font>, may be used in 
     file/folder names.&nbsp; To match the actual &quot;\&quot; character, escape it as you 
     would any other character (e.g. <font face="Courier New">\\</font>).&nbsp; 
     This symbol, however, is forbidden for use in a Windows file or folder name 
@@ -241,7 +241,7 @@ important in some expressions (e.g. <font face="Courier New">\s</font>,
     digits - the character code; hex digits in the A-F range may be upper or 
     lower case.</td>
     <td width="280"><font face="Courier New">flamb\u00E9</font><font face="Arial"> 
-    matches <b>flambé</b><br>
+    matches <b>flambï¿½</b><br>
     but not <b>flambe</b></font></td>
   </tr>
 </table>
@@ -323,7 +323,7 @@ requires double sets of brackets (see examples below).&nbsp; Using classes may
 reduce the size of your expression, but the same functionality can be added in 
 other ways.&nbsp; Note: that classes are locale dependent and <i>may</i> <b>
 include</b> foreign language characters which are in common locale usage, e.g.
-<b><font face="Arial">é</font></b>; to exclude those characters, use a 
+<b><font face="Arial">ï¿½</font></b>; to exclude those characters, use a 
 constructed character set instead, such as <font face="Courier New">[a-zA-Z]</font>.&nbsp; 
 A few select classes have short names, e.g. see <b>digits</b> and <b>
 alphanumeric</b> below, and <font face="Courier New"><b>\s</b></font> in 
@@ -380,7 +380,7 @@ expressions above.</p>
     <td>all upper/lower case letters, digits 0-9, alternate syntax is
     <font face="Courier New">[:w:]</font></td>
     <td width="280"><font face="Courier New">[[:alnum:]]*</font> matches <b>12ex</b> 
-    and <font face="Arial"><b>flambé</b><br>
+    and <font face="Arial"><b>flambï¿½</b><br>
     but not <b>87_a</b> or <b>12ex.txt</b></font></td>
   </tr>
   <tr>
@@ -515,3 +515,4 @@ determine a match.</p>
 </body>
 
 </html>
+
