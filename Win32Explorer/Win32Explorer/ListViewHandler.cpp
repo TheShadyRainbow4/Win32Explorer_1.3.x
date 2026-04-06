@@ -1,4 +1,4 @@
-﻿/******************************************************************
+/******************************************************************
  *
  * Project: Win32Explorer
  * File: ListViewHandler.cpp
@@ -7,8 +7,8 @@
  * Handles messages asscoiated with the main
  * listview controls.
  *
- * Written by David Erceg
- * www.explorerplusplus.com
+ * Written by Zachary Whiteman - EliteSoftwareTech Co.
+ * win32explorer.elitesoftwaretech.cc
  *
  *****************************************************************/
 
@@ -1866,3 +1866,4 @@ void Explorerplusplus::BuildListViewFileSelectionList(HWND hListView,
 	pFileSelectionList->assign(FileSelectionList.begin(),
 		FileSelectionList.end());
 }
+

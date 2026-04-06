@@ -1,4 +1,4 @@
-﻿/******************************************************************
+/******************************************************************
  *
  * Project: Win32Explorer
  * File: ApplicationToolbarDropHandler.cpp
@@ -6,8 +6,8 @@
  *
  * Handles drag and drop for the application toolbar.
  *
- * Written by David Erceg
- * www.explorerplusplus.com
+ * Written by Zachary Whiteman - EliteSoftwareTech Co.
+ * win32explorer.elitesoftwaretech.cc
  *
  *****************************************************************/
 
@@ -236,3 +236,4 @@ HRESULT Explorerplusplus::CApplicationToolbarDrop::InitializeDragDropHelpers(voi
 
 	return hr;
 }
+

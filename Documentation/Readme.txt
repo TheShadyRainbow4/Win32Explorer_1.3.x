@@ -1,11 +1,11 @@
-﻿Win32Explorer [version] [build_type]
+Win32Explorer [version] [build_type]
 
-Copyright (c) 2005-2011 David Erceg
+Copyright (c) 2026 Zachary Whiteman - EliteSoftwareTech Co.
 
 Win32Explorer is free software released under
 the GNU General Public License.
 
-www.explorerplusplus.com
+win32explorer.elitesoftwaretech.cc
 
 
 About Win32Explorer
@@ -27,4 +27,5 @@ Reporting Problems
 ------------------
 Please send any bugs or problems to:
 
-david@explorerplusplus.com
+david@win32explorer.elitesoftwaretech.cc
+

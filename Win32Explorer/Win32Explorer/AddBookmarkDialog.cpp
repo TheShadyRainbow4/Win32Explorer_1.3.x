@@ -1,4 +1,4 @@
-﻿/******************************************************************
+/******************************************************************
  *
  * Project: Win32Explorer
  * File: AddBookmarkDialog.cpp
@@ -6,8 +6,8 @@
  *
  * Handles the 'Add Bookmark' dialog.
  *
- * Written by David Erceg
- * www.explorerplusplus.com
+ * Written by Zachary Whiteman - EliteSoftwareTech Co.
+ * win32explorer.elitesoftwaretech.cc
  *
  *****************************************************************/
 
@@ -466,3 +466,4 @@ void Explorerplusplus::AddBookmarkSaveState(HWND hDlg)
 
 	m_bAddBookmarkDlgStateSaved = TRUE;
 }
+

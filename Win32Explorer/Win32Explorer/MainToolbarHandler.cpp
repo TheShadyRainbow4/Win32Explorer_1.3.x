@@ -1,4 +1,4 @@
-﻿/******************************************************************
+/******************************************************************
  *
  * Project: Win32Explorer
  * File: MainToolbarHandler.cpp
@@ -6,8 +6,8 @@
  *
  * Handles functionality associated with the main toolbar.
  *
- * Written by David Erceg
- * www.explorerplusplus.com
+ * Written by Zachary Whiteman - EliteSoftwareTech Co.
+ * win32explorer.elitesoftwaretech.cc
  *
  *****************************************************************/
 
@@ -530,3 +530,4 @@ void Explorerplusplus::HandleToolbarItemStates(void)
 
 	SendMessage(m_hMainToolbar,TB_ENABLEBUTTON,TOOLBAR_NEWFOLDER,!bVirtualFolder);
 }
+

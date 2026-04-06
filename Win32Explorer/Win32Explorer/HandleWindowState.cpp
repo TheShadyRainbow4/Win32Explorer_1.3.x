@@ -1,4 +1,4 @@
-﻿/******************************************************************
+/******************************************************************
  *
  * Project: Win32Explorer
  * File: HandleWindowState.cpp
@@ -7,8 +7,8 @@
  * Keeps track of the state of the main window
  * and its child windows.
  *
- * Written by David Erceg
- * www.explorerplusplus.com
+ * Written by Zachary Whiteman - EliteSoftwareTech Co.
+ * win32explorer.elitesoftwaretech.cc
  *
  *****************************************************************/
 
@@ -541,3 +541,4 @@ void Explorerplusplus::SetTabIcon(int iIndex,int iTabId,LPITEMIDLIST pidlDirecto
 		TabCtrl_RemoveImage(m_hTabCtrl,iRemoveImage);
 	}
 }
+

@@ -1,4 +1,4 @@
-﻿/******************************************************************
+/******************************************************************
  *
  * Project: Helper
  * File: CustomMenu.cpp
@@ -6,8 +6,8 @@
  *
  * Implements a custom menu system.
  *
- * Written by David Erceg
- * www.explorerplusplus.com
+ * Written by Zachary Whiteman - EliteSoftwareTech Co.
+ * win32explorer.elitesoftwaretech.cc
  *
  *****************************************************************/
 
@@ -333,3 +333,4 @@ void CCustomMenu::OnInitMenu(WPARAM wParam)
 {
 	m_hMenu = (HMENU)wParam;
 }
+

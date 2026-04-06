@@ -1,4 +1,4 @@
-﻿/******************************************************************
+/******************************************************************
  *
  * Project: Win32Explorer
  * File: SplitFileDialog.cpp
@@ -7,8 +7,8 @@
  * Provides the ability to split a file into several
  * pieces.
  *
- * Written by David Erceg
- * www.explorerplusplus.com
+ * Written by Zachary Whiteman - EliteSoftwareTech Co.
+ * win32explorer.elitesoftwaretech.cc
  *
  *****************************************************************/
 
@@ -676,3 +676,4 @@ void CSplitFileDialogPersistentSettings::LoadExtraXMLSettings(BSTR bstrName,BSTR
 		m_strSplitGroup = _bstr_t(bstrValue);
 	}
 }
+

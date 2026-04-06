@@ -1,4 +1,4 @@
-﻿/******************************************************************
+/******************************************************************
  *
  * Project: Win32Explorer
  * File: ApplicationToolbar.cpp
@@ -13,8 +13,8 @@
  *	<name="App2" command="D:\...">
  * </ApplicationToolbar>
  *
- * Written by David Erceg
- * www.explorerplusplus.com
+ * Written by Zachary Whiteman - EliteSoftwareTech Co.
+ * win32explorer.elitesoftwaretech.cc
  *
  *****************************************************************/
 
@@ -622,3 +622,4 @@ void Explorerplusplus::OnApplicationToolbarRClick(void)
 	/* Now, remove the item from the menu. */
 	DeleteMenu(m_hToolbarRightClickMenu,7,MF_BYPOSITION);
 }
+

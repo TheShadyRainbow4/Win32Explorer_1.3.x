@@ -18,8 +18,8 @@
  * is calculated, and once a particular column is full,
  * text will be placed in the next column.
  *
- * Written by David Erceg
- * www.explorerplusplus.com
+ * Written by Zachary Whiteman - EliteSoftwareTech Co.
+ * win32explorer.elitesoftwaretech.cc
  *
  *****************************************************************/
 

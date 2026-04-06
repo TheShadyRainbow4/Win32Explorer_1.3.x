@@ -91,9 +91,12 @@
       <PrecompiledHeader>Use</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
-      <AdditionalIncludeDirectories>$(BOOST)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(BOOST);$(STLSOFT)\include;$(PANTHEIOS)\include;</AdditionalIncludeDirectories>
     </ClCompile>
-  </ItemDefinitionGroup>
+      <Link>
+      <AdditionalLibraryDirectories>$(BOOST_LIB);$(PANTHEIOS)\lib;</AdditionalLibraryDirectories>
+    </Link>
+</ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Midl>
       <TargetEnvironment>X64</TargetEnvironment>
@@ -107,9 +110,12 @@
       <PrecompiledHeader>Use</PrecompiledHeader>
       <WarningLevel>Level4</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <AdditionalIncludeDirectories>$(BOOST)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(BOOST);$(STLSOFT)\include;$(PANTHEIOS)\include;</AdditionalIncludeDirectories>
     </ClCompile>
-  </ItemDefinitionGroup>
+      <Link>
+      <AdditionalLibraryDirectories>$(BOOST_LIB);$(PANTHEIOS)\lib;</AdditionalLibraryDirectories>
+    </Link>
+</ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
       <Optimization>MaxSpeed</Optimization>
@@ -121,9 +127,12 @@
       <WarningLevel>Level4</WarningLevel>
       <TreatWarningAsError>true</TreatWarningAsError>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <AdditionalIncludeDirectories>$(BOOST)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(BOOST);$(STLSOFT)\include;$(PANTHEIOS)\include;</AdditionalIncludeDirectories>
     </ClCompile>
-  </ItemDefinitionGroup>
+      <Link>
+      <AdditionalLibraryDirectories>$(BOOST_LIB);$(PANTHEIOS)\lib;</AdditionalLibraryDirectories>
+    </Link>
+</ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Midl>
       <TargetEnvironment>X64</TargetEnvironment>
@@ -138,9 +147,12 @@
       <WarningLevel>Level4</WarningLevel>
       <TreatWarningAsError>true</TreatWarningAsError>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <AdditionalIncludeDirectories>$(BOOST)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(BOOST);$(STLSOFT)\include;$(PANTHEIOS)\include;</AdditionalIncludeDirectories>
     </ClCompile>
-  </ItemDefinitionGroup>
+      <Link>
+      <AdditionalLibraryDirectories>$(BOOST_LIB);$(PANTHEIOS)\lib;</AdditionalLibraryDirectories>
+    </Link>
+</ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="HolderWindow.cpp" />
     <ClCompile Include="stdafx.cpp">

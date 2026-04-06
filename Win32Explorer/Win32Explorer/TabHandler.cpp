@@ -1,4 +1,4 @@
-﻿/******************************************************************
+/******************************************************************
  *
  * Project: Win32Explorer
  * File: TabHandler.cpp
@@ -7,8 +7,8 @@
  * Provides tab management as well as the
  * handling of messages associated with the tabs.
  *
- * Written by David Erceg
- * www.explorerplusplus.com
+ * Written by Zachary Whiteman - EliteSoftwareTech Co.
+ * win32explorer.elitesoftwaretech.cc
  *
  *****************************************************************/
 
@@ -1872,3 +1872,4 @@ int Explorerplusplus::GetCurrentTabId()
 {
 	return m_iObjectIndex;
 }
+

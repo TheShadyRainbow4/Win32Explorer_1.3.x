@@ -1,4 +1,4 @@
-﻿/******************************************************************
+/******************************************************************
  *
  * Project: Win32Explorer
  * File: ArrangeMenuHandler.cpp
@@ -6,8 +6,8 @@
  *
  * Handles arrange menu items.
  *
- * Written by David Erceg
- * www.explorerplusplus.com
+ * Written by Zachary Whiteman - EliteSoftwareTech Co.
+ * win32explorer.elitesoftwaretech.cc
  *
  *****************************************************************/
 
@@ -768,3 +768,4 @@ void Explorerplusplus::UpdateArrangeMenuItems(void)
 	SetMenuOwnerDrawInternal(m_hArrangeSubMenu,m_iMaxArrangeMenuItem);
 	SetMenuOwnerDrawInternal(m_hGroupBySubMenu,m_iMaxArrangeMenuItem);
 }
+

@@ -1,4 +1,4 @@
-﻿/******************************************************************
+/******************************************************************
  *
  * Project: Win32Explorer
  * File: SelectColumnsDialog.cpp
@@ -6,8 +6,8 @@
  *
  * Handles the 'Select Columns' dialog.
  *
- * Written by David Erceg
- * www.explorerplusplus.com
+ * Written by Zachary Whiteman - EliteSoftwareTech Co.
+ * win32explorer.elitesoftwaretech.cc
  *
  *****************************************************************/
 
@@ -308,3 +308,4 @@ CSelectColumnsDialogPersistentSettings& CSelectColumnsDialogPersistentSettings::
 	static CSelectColumnsDialogPersistentSettings mfdps;
 	return mfdps;
 }
+

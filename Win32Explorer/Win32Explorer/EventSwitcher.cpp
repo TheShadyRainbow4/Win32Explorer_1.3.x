@@ -1,4 +1,4 @@
-﻿/******************************************************************
+/******************************************************************
  *
  * Project: Win32Explorer
  * File: EvenSwitcher.cpp
@@ -7,8 +7,8 @@
  * Switches events based on the currently selected window
  * (principally the listview and treeview).
  *
- * Written by David Erceg
- * www.explorerplusplus.com
+ * Written by Zachary Whiteman - EliteSoftwareTech Co.
+ * win32explorer.elitesoftwaretech.cc
  *
  *****************************************************************/
 
@@ -181,3 +181,4 @@ void Explorerplusplus::OnPaste(void)
 		OnTreeViewPaste();
 	}
 }
+

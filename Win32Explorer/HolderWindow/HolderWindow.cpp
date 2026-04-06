@@ -7,8 +7,8 @@
  * Manages the 'holder window'. This window acts as a generic
  * container for child windows.
  *
- * Written by David Erceg
- * www.explorerplusplus.com
+ * Written by Zachary Whiteman - EliteSoftwareTech Co.
+ * win32explorer.elitesoftwaretech.cc
  *
  *****************************************************************/
 

@@ -1,4 +1,4 @@
-﻿/******************************************************************
+/******************************************************************
  *
  * Project: Win32Explorer
  * File: BookmarkHandler.cpp
@@ -8,8 +8,8 @@
  * such as creating a bookmarks menu, and
  * adding bookmarks to a toolbar.
  *
- * Written by David Erceg
- * www.explorerplusplus.com
+ * Written by Zachary Whiteman - EliteSoftwareTech Co.
+ * win32explorer.elitesoftwaretech.cc
  *
  *****************************************************************/
 
@@ -775,3 +775,4 @@ BOOL Explorerplusplus::DeleteBookmarkSafe(HWND hwnd,void *pBookmarkHandle)
 
 	return FALSE;
 }
+

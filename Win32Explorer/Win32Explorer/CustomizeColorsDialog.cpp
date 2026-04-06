@@ -1,4 +1,4 @@
-﻿/******************************************************************
+/******************************************************************
  *
  * Project: Win32Explorer
  * File: CustomizeColorsDialog.cpp
@@ -6,8 +6,8 @@
  *
  * Handles the customize colors dialog.
  *
- * Written by David Erceg
- * www.explorerplusplus.com
+ * Written by Zachary Whiteman - EliteSoftwareTech Co.
+ * win32explorer.elitesoftwaretech.cc
  *
  *****************************************************************/
 
@@ -408,3 +408,4 @@ CCustomizeColorsDialogPersistentSettings& CCustomizeColorsDialogPersistentSettin
 	static CCustomizeColorsDialogPersistentSettings sfadps;
 	return sfadps;
 }
+

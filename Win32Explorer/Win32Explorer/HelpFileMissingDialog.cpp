@@ -1,4 +1,4 @@
-﻿/******************************************************************
+/******************************************************************
  *
  * Project: Win32Explorer
  * File: HelpFileMissingDialog.cpp
@@ -6,8 +6,8 @@
  *
  * Manages the dialog shown when the help file is not found.
  *
- * Written by David Erceg
- * www.explorerplusplus.com
+ * Written by Zachary Whiteman - EliteSoftwareTech Co.
+ * win32explorer.elitesoftwaretech.cc
  *
  *****************************************************************/
 
@@ -75,3 +75,4 @@ BOOL CHelpFileMissingDialog::OnClose()
 	EndDialog(m_hDlg,0);
 	return 0;
 }
+

@@ -1,4 +1,4 @@
-﻿/******************************************************************
+/******************************************************************
  *
  * Project: Win32Explorer
  * File: WildcardSelectDialog.cpp
@@ -7,8 +7,8 @@
  * Allows items to be selected/deselected based
  * on a wildcard filter.
  *
- * Written by David Erceg
- * www.explorerplusplus.com
+ * Written by Zachary Whiteman - EliteSoftwareTech Co.
+ * win32explorer.elitesoftwaretech.cc
  *
  *****************************************************************/
 
@@ -244,3 +244,4 @@ void CWildcardSelectDialogPersistentSettings::LoadExtraXMLSettings(BSTR bstrName
 		m_PatternList.push_back(bstrValue);
 	}
 }
+

@@ -1,4 +1,4 @@
-﻿/******************************************************************
+/******************************************************************
  *
  * Project: Win32Explorer
  * File: BookmarkPropertiesDialog.cpp
@@ -6,8 +6,8 @@
  *
  * Handles the 'Bookmark Properties' dialog.
  *
- * Written by David Erceg
- * www.explorerplusplus.com
+ * Written by Zachary Whiteman - EliteSoftwareTech Co.
+ * win32explorer.elitesoftwaretech.cc
  *
  *****************************************************************/
 
@@ -285,3 +285,4 @@ void Explorerplusplus::OnBookmarkFolderPropertiesOk(HWND hDlg)
 
 	EndDialog(hDlg,1);
 }
+

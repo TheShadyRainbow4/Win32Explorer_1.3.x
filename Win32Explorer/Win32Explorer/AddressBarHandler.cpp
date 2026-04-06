@@ -1,4 +1,4 @@
-﻿/******************************************************************
+/******************************************************************
  *
  * Project: Win32Explorer
  * File: AddressBarHandler.cpp
@@ -6,8 +6,8 @@
  *
  * Handles the address bar.
  *
- * Written by David Erceg
- * www.explorerplusplus.com
+ * Written by Zachary Whiteman - EliteSoftwareTech Co.
+ * win32explorer.elitesoftwaretech.cc
  *
  *****************************************************************/
 
@@ -46,3 +46,4 @@ void Explorerplusplus::OnAddressBarGo(void)
 
 	OpenItem(szFullFilePath,FALSE,FALSE);
 }
+

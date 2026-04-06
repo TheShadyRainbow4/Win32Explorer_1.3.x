@@ -1,4 +1,4 @@
-﻿/******************************************************************
+/******************************************************************
  *
  * Project: Win32Explorer
  * File: Settings.cpp
@@ -6,8 +6,8 @@
  *
  * Saves and loads all main program settings.
  *
- * Written by David Erceg
- * www.explorerplusplus.com
+ * Written by Zachary Whiteman - EliteSoftwareTech Co.
+ * win32explorer.elitesoftwaretech.cc
  *
  *****************************************************************/
 
@@ -1645,3 +1645,4 @@ void Explorerplusplus::CLoadSaveRegistry::SaveState(void)
 {
 	m_pContainer->SaveStateToRegistry();
 }
+

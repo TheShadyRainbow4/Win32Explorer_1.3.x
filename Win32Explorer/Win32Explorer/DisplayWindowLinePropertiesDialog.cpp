@@ -1,4 +1,4 @@
-﻿/******************************************************************
+/******************************************************************
  *
  * Project: Win32Explorer
  * File: DisplayWindowLinePropertiesDialog.cpp
@@ -7,8 +7,8 @@
  * Handles all messages associated with the 'Display Window Line
  * Properties' dialog box.
  *
- * Written by David Erceg
- * www.explorerplusplus.com
+ * Written by Zachary Whiteman - EliteSoftwareTech Co.
+ * win32explorer.elitesoftwaretech.cc
  *
  *****************************************************************/
 
@@ -303,3 +303,4 @@ INT_PTR CALLBACK Explorerplusplus::DWLinePropertiesProc(HWND hDlg,UINT Msg,WPARA
 
 	return 0;
 }
+

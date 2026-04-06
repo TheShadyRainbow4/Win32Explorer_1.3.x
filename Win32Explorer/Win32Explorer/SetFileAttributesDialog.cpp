@@ -1,4 +1,4 @@
-﻿/******************************************************************
+/******************************************************************
  *
  * Project: Win32Explorer
  * File: SetFileAttributesDialog.cpp
@@ -8,8 +8,8 @@
  * and creation/modification/access dates of a set
  * of files.
  *
- * Written by David Erceg
- * www.explorerplusplus.com
+ * Written by Zachary Whiteman - EliteSoftwareTech Co.
+ * win32explorer.elitesoftwaretech.cc
  *
  *****************************************************************/
 
@@ -400,3 +400,4 @@ CSetFileAttributesDialogPersistentSettings& CSetFileAttributesDialogPersistentSe
 	static CSetFileAttributesDialogPersistentSettings sfadps;
 	return sfadps;
 }
+

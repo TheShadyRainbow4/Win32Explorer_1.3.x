@@ -1,4 +1,4 @@
-﻿/******************************************************************
+/******************************************************************
  *
  * Project: Win32Explorer
  * File: TabDropHandler.cpp
@@ -6,8 +6,8 @@
  *
  * Manages drag and drop for the tabs.
  *
- * Written by David Erceg
- * www.explorerplusplus.com
+ * Written by Zachary Whiteman - EliteSoftwareTech Co.
+ * win32explorer.elitesoftwaretech.cc
  *
  *****************************************************************/
 
@@ -284,3 +284,4 @@ POINTL pt,DWORD *pdwEffect)
 
 	return S_OK;
 }
+

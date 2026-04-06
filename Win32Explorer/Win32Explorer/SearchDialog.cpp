@@ -1,4 +1,4 @@
-﻿/******************************************************************
+/******************************************************************
  *
  * Project: Win32Explorer
  * File: SearchDialog.cpp
@@ -6,8 +6,8 @@
  *
  * Handles all messages associated with the 'Search' dialog box.
  *
- * Written by David Erceg
- * www.explorerplusplus.com
+ * Written by Zachary Whiteman - EliteSoftwareTech Co.
+ * win32explorer.elitesoftwaretech.cc
  *
  *****************************************************************/
 
@@ -1463,3 +1463,4 @@ void CSearchDialogPersistentSettings::ListToCircularBuffer(const std::list<T> &l
 		cb.push_back(Item);
 	}
 }
+

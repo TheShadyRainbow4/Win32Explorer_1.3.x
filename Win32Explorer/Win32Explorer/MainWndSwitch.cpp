@@ -1,4 +1,4 @@
-﻿/******************************************************************
+/******************************************************************
  *
  * Project: Win32Explorer
  * File: Settings.cpp
@@ -7,8 +7,8 @@
  * Processes and forwards incoming messages for the main
  * window.
  *
- * Written by David Erceg
- * www.explorerplusplus.com
+ * Written by Zachary Whiteman - EliteSoftwareTech Co.
+ * win32explorer.elitesoftwaretech.cc
  *
  *****************************************************************/
 
@@ -1995,3 +1995,4 @@ LRESULT CALLBACK Explorerplusplus::NotifyHandler(HWND hwnd,UINT Msg,WPARAM wPara
 
 	return 0;
 }
+

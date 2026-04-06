@@ -1,4 +1,4 @@
-﻿/******************************************************************
+/******************************************************************
  *
  * Project: Win32Explorer
  * File: DisplayColoursDialog.cpp
@@ -6,8 +6,8 @@
  *
  * Handles the 'Change Display Colors' dialog and associated messages.
  *
- * Written by David Erceg
- * www.explorerplusplus.com
+ * Written by Zachary Whiteman - EliteSoftwareTech Co.
+ * win32explorer.elitesoftwaretech.cc
  *
  *****************************************************************/
 
@@ -448,3 +448,4 @@ void Explorerplusplus::DisplayColorsSaveState(HWND hDlg)
 
 	m_bDisplayColorsDlgStateSaved = TRUE;
 }
+

@@ -1,4 +1,4 @@
-﻿/******************************************************************
+/******************************************************************
  *
  * Project: Win32Explorer
  * File: RenameTabDialog.cpp
@@ -6,8 +6,8 @@
  *
  * Handles the 'Rename Tab' dialog.
  *
- * Written by David Erceg
- * www.explorerplusplus.com
+ * Written by Zachary Whiteman - EliteSoftwareTech Co.
+ * win32explorer.elitesoftwaretech.cc
  *
  *****************************************************************/
 
@@ -160,3 +160,4 @@ CRenameTabDialogPersistentSettings& CRenameTabDialogPersistentSettings::GetInsta
 	static CRenameTabDialogPersistentSettings sfadps;
 	return sfadps;
 }
+

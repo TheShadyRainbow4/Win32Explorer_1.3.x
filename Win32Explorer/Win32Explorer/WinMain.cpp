@@ -1,4 +1,4 @@
-﻿/******************************************************************
+/******************************************************************
  *
  * Project: Win32Explorer
  * File: Settings.cpp
@@ -9,8 +9,8 @@
  *
  * This is the main module for Win32Explorer. Handles startup.
  *
- * Written by David Erceg
- * www.explorerplusplus.com
+ * Written by Zachary Whiteman - EliteSoftwareTech Co.
+ * win32explorer.elitesoftwaretech.cc
  *
  *****************************************************************/
 
@@ -662,3 +662,4 @@ LPSTR lpCmdLine,int nCmdShow)
 
 	return (int)msg.wParam;
 }
+

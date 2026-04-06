@@ -1,4 +1,4 @@
-﻿/******************************************************************
+/******************************************************************
  *
  * Project: Win32Explorer
  * File: OrganizeBookmarksDialog.cpp
@@ -6,8 +6,8 @@
  *
  * Handles the bookmarking of tabs.
  *
- * Written by David Erceg
- * www.explorerplusplus.com
+ * Written by Zachary Whiteman - EliteSoftwareTech Co.
+ * win32explorer.elitesoftwaretech.cc
  *
  *****************************************************************/
 
@@ -706,3 +706,4 @@ void Explorerplusplus::OrganizeBookmarksSaveState(HWND hDlg)
 
 	m_bOrganizeBookmarksDlgStateSaved = TRUE;
 }
+

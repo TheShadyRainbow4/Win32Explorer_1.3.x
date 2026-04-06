@@ -1,4 +1,4 @@
-﻿/******************************************************************
+/******************************************************************
  *
  * Project: Win32Explorer
  * File: Misc.cpp
@@ -7,8 +7,8 @@
  * Includes miscellaneous functions related to
  * the top-level GUI component.
  *
- * Written by David Erceg
- * www.explorerplusplus.com
+ * Written by Zachary Whiteman - EliteSoftwareTech Co.
+ * win32explorer.elitesoftwaretech.cc
  *
  *****************************************************************/
 
@@ -2323,3 +2323,4 @@ CStatusBar *Explorerplusplus::GetStatusBar()
 {
 	return m_pStatusBar;
 }
+

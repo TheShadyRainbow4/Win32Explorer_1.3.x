@@ -1,4 +1,4 @@
-﻿/******************************************************************
+/******************************************************************
  *
  * Project: Win32Explorer
  * File: LoggingFrontend.cpp
@@ -9,8 +9,8 @@
  * and disable all logging in release mode. This setting
  * can then be changed dynamically.
  *
- * Written by David Erceg
- * www.explorerplusplus.com
+ * Written by Zachary Whiteman - EliteSoftwareTech Co.
+ * win32explorer.elitesoftwaretech.cc
  *
  *****************************************************************/
 
@@ -64,3 +64,4 @@ void NLoggingFrontend::EnableLogging(bool Enable)
 {
 	g_EnableLogging = Enable;
 }
+

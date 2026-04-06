@@ -1,4 +1,4 @@
-﻿/******************************************************************
+/******************************************************************
  *
  * Project: Win32Explorer
  * File: OptionsDialog.cpp
@@ -12,8 +12,8 @@
  *    has been initialised (i.e. any dialog that has
  *    had the focus set to itself).
  *
- * Written by David Erceg
- * www.explorerplusplus.com
+ * Written by Zachary Whiteman - EliteSoftwareTech Co.
+ * win32explorer.elitesoftwaretech.cc
  *
  *****************************************************************/
 
@@ -1473,3 +1473,4 @@ void Explorerplusplus::SetFolderSizeWindowState(HWND hDlg)
 
 	EnableWindow(hFolderSizesNeworkRemovable,bEnable);
 }
+

@@ -1,4 +1,4 @@
-﻿/******************************************************************
+/******************************************************************
  *
  * Project: Win32Explorer
  * File: ChangeDisplayWindowDetailsDialog.cpp
@@ -24,8 +24,8 @@
  *
  * Show preview (checkbox)
  *
- * Written by David Erceg
- * www.explorerplusplus.com
+ * Written by Zachary Whiteman - EliteSoftwareTech Co.
+ * win32explorer.elitesoftwaretech.cc
  *
  *****************************************************************/
 
@@ -175,3 +175,4 @@ INT_PTR CALLBACK Explorerplusplus::DWChangeDetailsProc(HWND hDlg,UINT Msg,WPARAM
 
 	return 0;
 }
+

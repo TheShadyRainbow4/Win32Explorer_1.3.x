@@ -1,4 +1,4 @@
-﻿/******************************************************************
+/******************************************************************
  *
  * Project: Win32Explorer
  * File: FilterDialog.cpp
@@ -6,8 +6,8 @@
  *
  * Handles the 'Filter' dialog.
  *
- * Written by David Erceg
- * www.explorerplusplus.com
+ * Written by Zachary Whiteman - EliteSoftwareTech Co.
+ * win32explorer.elitesoftwaretech.cc
  *
  *****************************************************************/
 
@@ -229,3 +229,4 @@ void CFilterDialogPersistentSettings::LoadExtraXMLSettings(BSTR bstrName,BSTR bs
 		m_FilterList.push_back(bstrValue);
 	}
 }
+

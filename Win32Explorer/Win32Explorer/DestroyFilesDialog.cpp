@@ -1,4 +1,4 @@
-﻿/******************************************************************
+/******************************************************************
  *
  * Project: Win32Explorer
  * File: DestroyFilesDialog.cpp
@@ -6,8 +6,8 @@
  *
  * Handles the 'Destroy Files' dialog and associated messages.
  *
- * Written by David Erceg
- * www.explorerplusplus.com
+ * Written by Zachary Whiteman - EliteSoftwareTech Co.
+ * win32explorer.elitesoftwaretech.cc
  *
  *****************************************************************/
 
@@ -348,3 +348,4 @@ void CDestroyFilesDialogPersistentSettings::LoadExtraXMLSettings(BSTR bstrName,B
 		m_uOverwriteMethod = static_cast<NFileOperations::OverwriteMethod_t>(NXMLSettings::DecodeIntValue(bstrValue));
 	}
 }
+

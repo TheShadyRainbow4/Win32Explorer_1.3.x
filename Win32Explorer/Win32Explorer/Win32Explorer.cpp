@@ -1,4 +1,4 @@
-﻿/******************************************************************
+/******************************************************************
  *
  * Project: Win32Explorer
  * File: Win32Explorer.cpp
@@ -6,8 +6,8 @@
  *
  * Main file for the Explorerplusplus class.
  *
- * Written by David Erceg
- * www.explorerplusplus.com
+ * Written by Zachary Whiteman - EliteSoftwareTech Co.
+ * win32explorer.elitesoftwaretech.cc
  *
  *****************************************************************/
 
@@ -597,3 +597,4 @@ HRESULT Explorerplusplus::SelectAndEditItem(PCIDLIST_ABSOLUTE pidlItem,NMCSAEI_F
 
 	return S_OK;
 }
+

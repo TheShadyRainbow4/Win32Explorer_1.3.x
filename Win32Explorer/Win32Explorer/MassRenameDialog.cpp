@@ -1,4 +1,4 @@
-﻿/******************************************************************
+/******************************************************************
  *
  * Project: Win32Explorer
  * File: MassRenameDialog.cpp
@@ -11,8 +11,8 @@
  * /B	- Basename (filename without extension)
  * /E	- Extension
  *
- * Written by David Erceg
- * www.explorerplusplus.com
+ * Written by Zachary Whiteman - EliteSoftwareTech Co.
+ * win32explorer.elitesoftwaretech.cc
  *
  *****************************************************************/
 
@@ -449,3 +449,4 @@ void CMassRenameDialogPersistentSettings::LoadExtraXMLSettings(BSTR bstrName,BST
 		m_iColumnWidth2 = NXMLSettings::DecodeIntValue(bstrValue);
 	}
 }
+

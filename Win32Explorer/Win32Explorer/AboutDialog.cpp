@@ -1,4 +1,4 @@
-﻿/******************************************************************
+/******************************************************************
  *
  * Project: Win32Explorer
  * File: AboutDialog.cpp
@@ -9,8 +9,8 @@
  * Notes:
  *  - Always center dialog. Position is not saved/loaded.
  *
- * Written by David Erceg
- * www.explorerplusplus.com
+ * Written by Zachary Whiteman - EliteSoftwareTech Co.
+ * win32explorer.elitesoftwaretech.cc
  *
  *****************************************************************/
 
@@ -136,3 +136,4 @@ BOOL CAboutDialog::OnClose()
 	EndDialog(m_hDlg,0);
 	return 0;
 }
+

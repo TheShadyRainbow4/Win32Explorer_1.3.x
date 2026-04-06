@@ -12,8 +12,8 @@
  *     - Swapping columns (i.e. checking/unchecking columns)
  *     - Exiting the program
  *
- * Written by David Erceg
- * www.explorerplusplus.com
+ * Written by Zachary Whiteman - EliteSoftwareTech Co.
+ * win32explorer.elitesoftwaretech.cc
  *
  *****************************************************************/
 

@@ -1,4 +1,4 @@
-﻿/******************************************************************
+/******************************************************************
  *
  * Project: Win32Explorer
  * File: TabBackingHandler.cpp
@@ -7,8 +7,8 @@
  * Manages the 'tab backing' panel, which sits
  * behind the tab control.
  *
- * Written by David Erceg
- * www.explorerplusplus.com
+ * Written by Zachary Whiteman - EliteSoftwareTech Co.
+ * win32explorer.elitesoftwaretech.cc
  *
  *****************************************************************/
 
@@ -92,3 +92,4 @@ UINT msg,WPARAM wParam,LPARAM lParam)
 
 	return DefSubclassProc(hTabCtrl,msg,wParam,lParam);
 }
+

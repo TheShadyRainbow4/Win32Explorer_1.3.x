@@ -1,4 +1,4 @@
-﻿/******************************************************************
+/******************************************************************
  *
  * Project: Win32Explorer
  * File: WindowHandler.cpp
@@ -7,8 +7,8 @@
  * Manages the creation of windows as well
  * as housing various window procedures.
  *
- * Written by David Erceg
- * www.explorerplusplus.com
+ * Written by Zachary Whiteman - EliteSoftwareTech Co.
+ * win32explorer.elitesoftwaretech.cc
  *
  *****************************************************************/
 
@@ -1049,3 +1049,4 @@ void Explorerplusplus::AdjustMainToolbarSize(void)
 
 	SendMessage(m_hMainRebar,RB_SETBANDINFO,0,(LPARAM)&rbi);
 }
+

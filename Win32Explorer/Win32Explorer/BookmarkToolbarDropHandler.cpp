@@ -1,4 +1,4 @@
-﻿/******************************************************************
+/******************************************************************
  *
  * Project: Win32Explorer
  * File: OrganizeBookmarksDialog.cpp
@@ -6,8 +6,8 @@
  *
  * Handles drag and drop for the bookmarks toolbar.
  *
- * Written by David Erceg
- * www.explorerplusplus.com
+ * Written by Zachary Whiteman - EliteSoftwareTech Co.
+ * win32explorer.elitesoftwaretech.cc
  *
  *****************************************************************/
 
@@ -285,3 +285,4 @@ HRESULT Explorerplusplus::CBookmarkToolbarDrop::InitializeDragDropHelpers(void)
 
 	return hr;
 }
+

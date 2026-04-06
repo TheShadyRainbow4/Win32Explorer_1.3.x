@@ -91,7 +91,7 @@
       <PrecompiledHeader>Use</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
-      <AdditionalIncludeDirectories>$(BOOST)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(BOOST);$(STLSOFT)\include;$(PANTHEIOS)\include;</AdditionalIncludeDirectories>
     </ClCompile>
     <ProjectReference>
       <LinkLibraryDependencies>true</LinkLibraryDependencies>
@@ -102,7 +102,10 @@
       <ModuleDefinitionFile>
       </ModuleDefinitionFile>
     </Lib>
-  </ItemDefinitionGroup>
+      <Link>
+      <AdditionalLibraryDirectories>$(BOOST_LIB);$(PANTHEIOS)\lib;</AdditionalLibraryDirectories>
+    </Link>
+</ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Midl>
       <TargetEnvironment>X64</TargetEnvironment>
@@ -117,7 +120,7 @@
       <WarningLevel>Level4</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <CallingConvention>Cdecl</CallingConvention>
-      <AdditionalIncludeDirectories>$(BOOST)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(BOOST);$(STLSOFT)\include;$(PANTHEIOS)\include;</AdditionalIncludeDirectories>
     </ClCompile>
     <ProjectReference>
       <LinkLibraryDependencies>true</LinkLibraryDependencies>
@@ -128,7 +131,10 @@
       <ModuleDefinitionFile>
       </ModuleDefinitionFile>
     </Lib>
-  </ItemDefinitionGroup>
+      <Link>
+      <AdditionalLibraryDirectories>$(BOOST_LIB);$(PANTHEIOS)\lib;</AdditionalLibraryDirectories>
+    </Link>
+</ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
       <Optimization>Full</Optimization>
@@ -139,12 +145,15 @@
       <WarningLevel>Level4</WarningLevel>
       <TreatWarningAsError>true</TreatWarningAsError>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <AdditionalIncludeDirectories>$(BOOST)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(BOOST);$(STLSOFT)\include;$(PANTHEIOS)\include;</AdditionalIncludeDirectories>
     </ClCompile>
     <Lib>
       <AdditionalDependencies>version.lib;iphlpapi.lib;userenv.lib;wmvcore.lib;%(AdditionalDependencies);windowscodecs.lib;shlwapi.lib;gdiplus.lib;psapi.lib</AdditionalDependencies>
     </Lib>
-  </ItemDefinitionGroup>
+      <Link>
+      <AdditionalLibraryDirectories>$(BOOST_LIB);$(PANTHEIOS)\lib;</AdditionalLibraryDirectories>
+    </Link>
+</ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Midl>
       <TargetEnvironment>X64</TargetEnvironment>
@@ -158,12 +167,15 @@
       <WarningLevel>Level4</WarningLevel>
       <TreatWarningAsError>true</TreatWarningAsError>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <AdditionalIncludeDirectories>$(BOOST)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(BOOST);$(STLSOFT)\include;$(PANTHEIOS)\include;</AdditionalIncludeDirectories>
     </ClCompile>
     <Lib>
       <AdditionalDependencies>version.lib;iphlpapi.lib;userenv.lib;wmvcore.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Lib>
-  </ItemDefinitionGroup>
+      <Link>
+      <AdditionalLibraryDirectories>$(BOOST_LIB);$(PANTHEIOS)\lib;</AdditionalLibraryDirectories>
+    </Link>
+</ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="BaseDialog.cpp" />
     <ClCompile Include="Bookmark.cpp" />

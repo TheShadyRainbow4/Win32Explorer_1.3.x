@@ -1,4 +1,4 @@
-﻿/******************************************************************
+/******************************************************************
  *
  * Project: Win32Explorer
  * File: SelectColumnsDialog.cpp
@@ -6,8 +6,8 @@
  *
  * Handles the 'Select Columns' dialog.
  *
- * Written by David Erceg
- * www.explorerplusplus.com
+ * Written by Zachary Whiteman - EliteSoftwareTech Co.
+ * win32explorer.elitesoftwaretech.cc
  *
  *****************************************************************/
 
@@ -458,3 +458,4 @@ void CSetDefaultColumnsDialogPersistentSettings::LoadExtraXMLSettings(BSTR bstrN
 		m_FolderType = static_cast<FolderType_t>(NXMLSettings::DecodeIntValue(bstrValue));
 	}
 }
+

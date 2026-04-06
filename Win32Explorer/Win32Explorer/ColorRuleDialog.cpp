@@ -1,4 +1,4 @@
-﻿/******************************************************************
+/******************************************************************
  *
  * Project: Win32Explorer
  * File: ColorRuleDialog.cpp
@@ -6,8 +6,8 @@
  *
  * Handles the new/edit color rule dialog.
  *
- * Written by David Erceg
- * www.explorerplusplus.com
+ * Written by Zachary Whiteman - EliteSoftwareTech Co.
+ * win32explorer.elitesoftwaretech.cc
  *
  *****************************************************************/
 
@@ -340,3 +340,4 @@ void CColorRuleDialogPersistentSettings::LoadExtraXMLSettings(BSTR bstrName,BSTR
 			m_cfInitialColor = RGB(c,GetGValue(m_cfInitialColor),GetBValue(m_cfInitialColor));
 	}
 }
+

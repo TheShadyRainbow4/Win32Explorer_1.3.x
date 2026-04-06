@@ -11,8 +11,8 @@
  * References:
  * http://windowsxp.mvps.org/context_folders.htm
  *
- * Written by David Erceg
- * www.explorerplusplus.com
+ * Written by Zachary Whiteman - EliteSoftwareTech Co.
+ * win32explorer.elitesoftwaretech.cc
  *
  *****************************************************************/
 

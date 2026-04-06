@@ -253,7 +253,7 @@
     <None Include="res\Win32Explorer Small.ico">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="res\Win32Explorer.ico">
+    <None Include="res\Win32Explorer_ICON.ico">
       <Filter>Resource Files</Filter>
     </None>
     <None Include="res\Filtering Applied.bmp">

@@ -1,4 +1,4 @@
-﻿/******************************************************************
+/******************************************************************
  *
  * Project: Win32Explorer
  * File: TreeViewHandler.cpp
@@ -7,8 +7,8 @@
  * Handles messages asscoiated with the main
  * treeview control.
  *
- * Written by David Erceg
- * www.explorerplusplus.com
+ * Written by Zachary Whiteman - EliteSoftwareTech Co.
+ * win32explorer.elitesoftwaretech.cc
  *
  *****************************************************************/
 
@@ -742,3 +742,4 @@ void Explorerplusplus::OnTreeViewPaste(void)
 		}
 	}
 }
+

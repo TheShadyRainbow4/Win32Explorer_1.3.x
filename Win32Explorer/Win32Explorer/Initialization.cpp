@@ -1,4 +1,4 @@
-﻿/******************************************************************
+/******************************************************************
  *
  * Project: Win32Explorer
  * File: Initialization.cpp
@@ -7,8 +7,8 @@
  * Includes miscellaneous functions related to
  * the top-level GUI component.
  *
- * Written by David Erceg
- * www.explorerplusplus.com
+ * Written by Zachary Whiteman - EliteSoftwareTech Co.
+ * win32explorer.elitesoftwaretech.cc
  *
  *****************************************************************/
 
@@ -219,3 +219,4 @@ void Explorerplusplus::InitializeColorRules(void)
 	ColorRule.dwFilterAttributes	= FILE_ATTRIBUTE_ENCRYPTED;
 	m_ColorRuleList.push_back(ColorRule);
 }
+

@@ -1,4 +1,4 @@
-﻿/******************************************************************
+/******************************************************************
  *
  * Project: Win32Explorer
  * File: MergeFiles.cpp
@@ -6,8 +6,8 @@
  *
  * Provides support for merging files.
  *
- * Written by David Erceg
- * www.explorerplusplus.com
+ * Written by Zachary Whiteman - EliteSoftwareTech Co.
+ * win32explorer.elitesoftwaretech.cc
  *
  *****************************************************************/
 
@@ -603,3 +603,4 @@ CMergeFilesDialogPersistentSettings& CMergeFilesDialogPersistentSettings::GetIns
 	static CMergeFilesDialogPersistentSettings mfdps;
 	return mfdps;
 }
+

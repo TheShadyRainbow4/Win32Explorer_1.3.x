@@ -1,4 +1,4 @@
-﻿/******************************************************************
+/******************************************************************
  *
  * Project: Win32Explorer
  * File: MsgHandler.cpp
@@ -6,8 +6,8 @@
  *
  * Handles messages passed back from the main GUI components.
  *
- * Written by David Erceg
- * www.explorerplusplus.com
+ * Written by Zachary Whiteman - EliteSoftwareTech Co.
+ * win32explorer.elitesoftwaretech.cc
  *
  *****************************************************************/
 
@@ -2994,3 +2994,4 @@ IShellBrowser2 *Explorerplusplus::GetActiveShellBrowser()
 {
 	return m_pActiveShellBrowser;
 }
+

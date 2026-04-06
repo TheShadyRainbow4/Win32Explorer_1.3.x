@@ -1,4 +1,4 @@
-﻿/******************************************************************
+/******************************************************************
  *
  * Project: Win32Explorer
  * File: iDropSource.cpp
@@ -6,8 +6,8 @@
  *
  * Provides support for acting as a drop source.
  *
- * Written by David Erceg
- * www.explorerplusplus.com
+ * Written by Zachary Whiteman - EliteSoftwareTech Co.
+ * win32explorer.elitesoftwaretech.cc
  *
  *****************************************************************/
 
@@ -126,3 +126,4 @@ HRESULT _stdcall CDropSource::GiveFeedback(DWORD dwEffect)
 {
 	return DRAGDROP_S_USEDEFAULTCURSORS;
 }
+

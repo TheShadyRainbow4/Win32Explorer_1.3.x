@@ -91,12 +91,15 @@
       <PrecompiledHeader>Use</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
-      <AdditionalIncludeDirectories>$(BOOST)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(BOOST);$(STLSOFT)\include;$(PANTHEIOS)\include;</AdditionalIncludeDirectories>
     </ClCompile>
     <Lib>
       <AdditionalDependencies>winmm.lib</AdditionalDependencies>
     </Lib>
-  </ItemDefinitionGroup>
+      <Link>
+      <AdditionalLibraryDirectories>$(BOOST_LIB);$(PANTHEIOS)\lib;</AdditionalLibraryDirectories>
+    </Link>
+</ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Midl>
       <TargetEnvironment>X64</TargetEnvironment>
@@ -112,13 +115,16 @@
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <CallingConvention>Cdecl</CallingConvention>
       <EnablePREfast>false</EnablePREfast>
-      <AdditionalIncludeDirectories>$(BOOST)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(BOOST);$(STLSOFT)\include;$(PANTHEIOS)\include;</AdditionalIncludeDirectories>
     </ClCompile>
     <Lib>
       <TargetMachine>
       </TargetMachine>
     </Lib>
-  </ItemDefinitionGroup>
+      <Link>
+      <AdditionalLibraryDirectories>$(BOOST_LIB);$(PANTHEIOS)\lib;</AdditionalLibraryDirectories>
+    </Link>
+</ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
       <Optimization>Full</Optimization>
@@ -129,12 +135,15 @@
       <WarningLevel>Level4</WarningLevel>
       <TreatWarningAsError>true</TreatWarningAsError>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <AdditionalIncludeDirectories>$(BOOST)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(BOOST);$(STLSOFT)\include;$(PANTHEIOS)\include;</AdditionalIncludeDirectories>
     </ClCompile>
     <Lib>
       <AdditionalDependencies>iphlpapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Lib>
-  </ItemDefinitionGroup>
+      <Link>
+      <AdditionalLibraryDirectories>$(BOOST_LIB);$(PANTHEIOS)\lib;</AdditionalLibraryDirectories>
+    </Link>
+</ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Midl>
       <TargetEnvironment>X64</TargetEnvironment>
@@ -148,12 +157,15 @@
       <WarningLevel>Level4</WarningLevel>
       <TreatWarningAsError>true</TreatWarningAsError>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <AdditionalIncludeDirectories>$(BOOST)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(BOOST);$(STLSOFT)\include;$(PANTHEIOS)\include;</AdditionalIncludeDirectories>
     </ClCompile>
     <Lib>
       <AdditionalDependencies>iphlpapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Lib>
-  </ItemDefinitionGroup>
+      <Link>
+      <AdditionalLibraryDirectories>$(BOOST_LIB);$(PANTHEIOS)\lib;</AdditionalLibraryDirectories>
+    </Link>
+</ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="BrowsingHandler.cpp" />
     <ClCompile Include="ColumnManager.cpp" />
