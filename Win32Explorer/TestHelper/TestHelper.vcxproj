@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -14,15 +14,18 @@
     <ProjectGuid>{AA859AD3-B805-4EC6-AF00-A063A63886EC}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>TestHelper</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
     <UseDebugLibraries>true</UseDebugLibraries>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
     <UseDebugLibraries>false</UseDebugLibraries>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
@@ -48,9 +51,10 @@
       <PrecompiledHeader>Use</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>$(GTEST)\include;$(BOOST);$(STLSOFT)\include;$(PANTHEIOS)\include;</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_STLSOFT_FORCE_MSVC_1600_QUALITY=1;WIN32;_DEBUG;_CONSOLE;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)Helper;$(GTEST)\include;$(BOOST);$(STLSOFT)\include;$(PANTHEIOS)\include;</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <TreatWarningsAsError>false</TreatWarningsAsError>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -69,8 +73,9 @@
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>$(GTEST)\include;$(BOOST);$(STLSOFT)\include;$(PANTHEIOS)\include;</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_STLSOFT_FORCE_MSVC_1600_QUALITY=1;WIN32;NDEBUG;_CONSOLE;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)Helper;$(GTEST)\include;$(BOOST);$(STLSOFT)\include;$(PANTHEIOS)\include;</AdditionalIncludeDirectories>
+      <TreatWarningsAsError>false</TreatWarningsAsError>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -104,3 +109,4 @@
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
 </Project>
+

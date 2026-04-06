@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -22,15 +22,18 @@
     <ProjectGuid>{7544A240-2EBF-4DC1-B55B-C8AE32672ED0}</ProjectGuid>
     <RootNamespace>Win32Explorer</RootNamespace>
     <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
     <WholeProgramOptimization>true</WholeProgramOptimization>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
     <UseOfMfc>false</UseOfMfc>
     <UseOfAtl>false</UseOfAtl>
     <CharacterSet>Unicode</CharacterSet>
@@ -38,11 +41,13 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
     <WholeProgramOptimization>true</WholeProgramOptimization>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
     <UseOfMfc>false</UseOfMfc>
     <UseOfAtl>false</UseOfAtl>
     <CharacterSet>Unicode</CharacterSet>
@@ -102,21 +107,22 @@
     </PreBuildEvent>
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_STLSOFT_FORCE_MSVC_1600_QUALITY=1;WIN32;_DEBUG;_WINDOWS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <MinimalRebuild>true</MinimalRebuild>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <WarningLevel>Level4</WarningLevel>
+      <TreatWarningAsError>false</TreatWarningAsError>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <AdditionalIncludeDirectories>$(BOOST);$(STLSOFT)\include;$(PANTHEIOS)\include;</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)Helper;$(BOOST);$(STLSOFT)\include;$(PANTHEIOS)\include;</AdditionalIncludeDirectories>
     </ClCompile>
     <ResourceCompile>
       <Culture>0x0c09</Culture>
       <ResourceOutputFileName>$(IntDir)Win32ExplorerMain.res</ResourceOutputFileName>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>comctl32.lib;shell32.lib;gdiplus.lib;msimg32.lib;shlwapi.lib;psapi.lib;mpr.lib;uxtheme.lib;vfw32.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>Dbghelp.lib;comctl32.lib;shell32.lib;gdiplus.lib;msimg32.lib;shlwapi.lib;psapi.lib;mpr.lib;uxtheme.lib;dwmapi.lib;vfw32.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)Win32Explorer.exe</OutputFile>
       <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
@@ -146,21 +152,22 @@
     </PreBuildEvent>
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;WIN64;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_STLSOFT_FORCE_MSVC_1600_QUALITY=1;WIN32;_DEBUG;_WINDOWS;WIN64;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <MinimalRebuild>true</MinimalRebuild>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <WarningLevel>Level4</WarningLevel>
+      <TreatWarningAsError>false</TreatWarningAsError>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <CallingConvention>Cdecl</CallingConvention>
-      <AdditionalIncludeDirectories>$(BOOST);$(STLSOFT)\include;$(PANTHEIOS)\include;</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)Helper;$(BOOST);$(STLSOFT)\include;$(PANTHEIOS)\include;</AdditionalIncludeDirectories>
     </ClCompile>
     <ResourceCompile>
       <Culture>0x0c09</Culture>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>comctl32.lib;shell32.lib;gdiplus.lib;msimg32.lib;shlwapi.lib;psapi.lib;mpr.lib;uxtheme.lib;vfw32.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>Dbghelp.lib;comctl32.lib;shell32.lib;gdiplus.lib;msimg32.lib;shlwapi.lib;psapi.lib;mpr.lib;uxtheme.lib;dwmapi.lib;vfw32.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)Win32Explorer.exe</OutputFile>
       <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
@@ -186,20 +193,20 @@
     <ClCompile>
       <Optimization>Full</Optimization>
       <WholeProgramOptimization>true</WholeProgramOptimization>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_STLSOFT_FORCE_MSVC_1600_QUALITY=1;WIN32;NDEBUG;_WINDOWS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <StringPooling>false</StringPooling>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <WarningLevel>Level4</WarningLevel>
-      <TreatWarningAsError>true</TreatWarningAsError>
+      <TreatWarningAsError>false</TreatWarningAsError>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <AdditionalIncludeDirectories>$(BOOST);$(STLSOFT)\include;$(PANTHEIOS)\include;</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)Helper;$(BOOST);$(STLSOFT)\include;$(PANTHEIOS)\include;</AdditionalIncludeDirectories>
     </ClCompile>
     <ResourceCompile>
       <ResourceOutputFileName>$(IntDir)Win32ExplorerMain.res</ResourceOutputFileName>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>comctl32.lib;shell32.lib;gdiplus.lib;msimg32.lib;shlwapi.lib;psapi.lib;mpr.lib;uxtheme.lib;vfw32.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>Dbghelp.lib;comctl32.lib;shell32.lib;gdiplus.lib;msimg32.lib;shlwapi.lib;psapi.lib;mpr.lib;uxtheme.lib;dwmapi.lib;vfw32.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)Win32Explorer.exe</OutputFile>
       <TypeLibraryFile>
       </TypeLibraryFile>
@@ -224,20 +231,20 @@
     <ClCompile>
       <Optimization>Full</Optimization>
       <WholeProgramOptimization>true</WholeProgramOptimization>
-      <PreprocessorDefinitions>WIN64;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_STLSOFT_FORCE_MSVC_1600_QUALITY=1;WIN64;NDEBUG;_WINDOWS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <StringPooling>false</StringPooling>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <WarningLevel>Level4</WarningLevel>
-      <TreatWarningAsError>true</TreatWarningAsError>
+      <TreatWarningAsError>false</TreatWarningAsError>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <AdditionalIncludeDirectories>$(BOOST);$(STLSOFT)\include;$(PANTHEIOS)\include;</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)Helper;$(BOOST);$(STLSOFT)\include;$(PANTHEIOS)\include;</AdditionalIncludeDirectories>
     </ClCompile>
     <ResourceCompile>
       <ResourceOutputFileName>$(IntDir)Win32ExplorerMain.res</ResourceOutputFileName>
     </ResourceCompile>
     <Link>
-      <AdditionalDependencies>comctl32.lib;shell32.lib;gdiplus.lib;msimg32.lib;shlwapi.lib;psapi.lib;mpr.lib;uxtheme.lib;vfw32.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>Dbghelp.lib;comctl32.lib;shell32.lib;gdiplus.lib;msimg32.lib;shlwapi.lib;psapi.lib;mpr.lib;uxtheme.lib;dwmapi.lib;vfw32.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)Win32Explorer.exe</OutputFile>
       <TypeLibraryFile>shobjidl.idl</TypeLibraryFile>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -252,10 +259,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="AboutDialog.cpp">
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
-    </ClCompile>
+    <ClCompile Include="AboutDialog.cpp" />
     <ClCompile Include="AddBookmarkDialog.cpp" />
     <ClCompile Include="AddressBarHandler.cpp" />
     <ClCompile Include="ApplicationToolbarDropHandler.cpp" />
@@ -311,12 +315,7 @@
     <ClCompile Include="WildcardSelectDialog.cpp" />
     <ClCompile Include="WindowHandler.cpp" />
     <ClCompile Include="WinMain.cpp" />
-    <ClCompile Include="XMLSettings.cpp">
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-      </PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-      </PrecompiledHeader>
-    </ClCompile>
+    <ClCompile Include="XMLSettings.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AboutDialog.h" />
@@ -409,3 +408,6 @@
     </VisualStudio>
   </ProjectExtensions>
 </Project>
+
+
+

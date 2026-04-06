@@ -4,6 +4,7 @@
 #include <windows.h>
 #include <winioctl.h>
 #include <list>
+#include <string>
 #include <ShObjIdl.h>
 
 /* Major version numbers for various versions of
@@ -18,6 +19,7 @@ version of Windows, these declarations
 will be required.
 All three declarations are from
 ShObjIdl.h. */
+#if 0
 typedef /* [v1_enum] */ 
 enum KNOWNDESTCATEGORY
     {	KDC_FREQUENT	= 1,
@@ -60,6 +62,7 @@ public:
 	virtual HRESULT STDMETHODCALLTYPE AbortList( void) = 0;
 
 };
+#endif
 
 #define MAX_STRING_LENGTH	512
 
@@ -93,6 +96,40 @@ add a definition here. */
 /* See: http://msdn.microsoft.com/en-us/library/bb776902(v=VS.85).aspx#CFSTR_SHELLIDLIST */
 #define HIDA_GetPIDLFolder(pida) (LPCITEMIDLIST)(((LPBYTE)pida)+(pida)->aoffset[0])
 #define HIDA_GetPIDLItem(pida, i) (LPCITEMIDLIST)(((LPBYTE)pida)+(pida)->aoffset[i+1])
+
+#ifndef IAsyncOperation_DEFINED
+#define IAsyncOperation_DEFINED
+/* IAsyncOperation interface.
+This interface is used to allow a drop source to
+specify that a drop operation should be performed
+asynchronously.
+Defined in ShObjIdl.h, but only for certain target
+platforms. */
+EXTERN_C const IID IID_IAsyncOperation;
+
+MIDL_INTERFACE("3d8b0590-f691-11d2-8ea0-009027226341")
+IAsyncOperation : public IUnknown
+{
+public:
+	virtual HRESULT STDMETHODCALLTYPE SetAsyncMode( 
+		/* [in] */ BOOL fDoOpAsync) = 0;
+
+	virtual HRESULT STDMETHODCALLTYPE GetAsyncMode( 
+		/* [out] */ BOOL *pfIsOpAsync) = 0;
+
+	virtual HRESULT STDMETHODCALLTYPE StartOperation( 
+		/* [unique][in] */ IBindCtx *pbcReserved) = 0;
+
+	virtual HRESULT STDMETHODCALLTYPE InOperation( 
+		/* [out] */ BOOL *pfInAsyncOp) = 0;
+
+	virtual HRESULT STDMETHODCALLTYPE EndOperation( 
+		/* [in] */ HRESULT hResult,
+		/* [unique][in] */ IBindCtx *pbcReserved,
+		/* [in] */ DWORD dwEffects) = 0;
+
+};
+#endif
 
 typedef struct
 {

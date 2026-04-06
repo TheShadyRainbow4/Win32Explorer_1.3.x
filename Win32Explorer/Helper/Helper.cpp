@@ -18,6 +18,10 @@
 #include "ShellHelper.h"
 #include "Macros.h"
 
+#include <initguid.h>
+/* 3d8b0590-f691-11d2-8ea0-009027226341 */
+DEFINE_GUID(IID_IAsyncOperation, 0x3d8b0590, 0xf691, 0x11d2, 0x8e, 0xa0, 0x00, 0x90, 0x27, 0x22, 0x63, 0x41);
+
 
 /* Local helpers. */
 void	EnterAttributeIntoString(BOOL bEnter,TCHAR *String,int Pos,TCHAR chAttribute);

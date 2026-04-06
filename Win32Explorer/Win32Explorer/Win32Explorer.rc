@@ -7,8 +7,8 @@
 //
 // Generated from the TEXTINCLUDE 2 resource.
 //
-#include "afxres.h"
-#include "Version.h"
+#include "winres.h"
+#include "Version.h"
 /////////////////////////////////////////////////////////////////////////////
 #undef APSTUDIO_READONLY_SYMBOLS
 
@@ -32,7 +32,7 @@ BEGIN
     CONTROL         231,IDC_ABOUT_STATIC_IMAGE,"Static",SS_BITMAP,0,0,16,14,WS_EX_STATICEDGE
     LTEXT           "Win32Explorer Version %s (%s)",IDC_STATIC_VERSIONNUMBER,5,63,246,8
     LTEXT           "Build Date: %s",IDC_STATIC_BUILDDATE,5,77,246,8
-    LTEXT           "Copyright © 2026 Zachary Whiteman - EliteSoftwareTech Co.",IDC_STATIC,5,91,118,8
+    LTEXT           "Copyright ï¿½ 2026 Zachary Whiteman - EliteSoftwareTech Co.",IDC_STATIC,5,91,118,8
     CONTROL         "<a href=""http://win32explorer.elitesoftwaretech.cc"">win32explorer.elitesoftwaretech.cc</a>",IDC_SITELINK,
                     "SysLink",WS_TABSTOP,5,105,91,12
     CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,5,121,259,20
@@ -1686,15 +1686,15 @@ BEGIN
     IDS_GENERAL_TRANSLATION_DLL_VERSION_MISMATCH_CHINESE_SIMPLIFIED 
                             "?????DLL?????????????"
     IDS_GENERAL_TRANSLATION_DLL_VERSION_MISMATCH_CZECH 
-                            "verze uvedených prekladu DLL neodpovídá verzi spustitelného souboru."
+                            "verze uvedenï¿½ch prekladu DLL neodpovï¿½dï¿½ verzi spustitelnï¿½ho souboru."
     IDS_GENERAL_TRANSLATION_DLL_VERSION_MISMATCH_DANISH 
-                            "Den version af den angivne oversættelse DLL passer ikke den version af den eksekverbare."
+                            "Den version af den angivne oversï¿½ttelse DLL passer ikke den version af den eksekverbare."
     IDS_GENERAL_TRANSLATION_DLL_VERSION_MISMATCH_DUTCH 
                             "De versie van de opgegeven DLL vertaling komt niet overeen met de versie van het uitvoerbare."
     IDS_GENERAL_TRANSLATION_DLL_VERSION_MISMATCH_FRENCH 
-                            "La version de la DLL de traduction spécifié ne correspond pas à la version de l'exécutable."
+                            "La version de la DLL de traduction spï¿½cifiï¿½ ne correspond pas ï¿½ la version de l'exï¿½cutable."
     IDS_GENERAL_TRANSLATION_DLL_VERSION_MISMATCH_GERMAN 
-                            "Die Version des angegebenen DLL Übersetzung stimmt nicht mit der Version der ausführbaren Datei."
+                            "Die Version des angegebenen DLL ï¿½bersetzung stimmt nicht mit der Version der ausfï¿½hrbaren Datei."
     IDS_GENERAL_TRANSLATION_DLL_VERSION_MISMATCH_ITALIAN 
                             "La versione della DLL traduzione specificata non corrisponde alla versione del file eseguibile."
     IDS_GENERAL_TRANSLATION_DLL_VERSION_MISMATCH_JAPANESE 
@@ -1706,15 +1706,15 @@ BEGIN
     IDS_GENERAL_TRANSLATION_DLL_VERSION_MISMATCH_KOREAN 
                             "??? ?? DLL? ??? ?? ??? ??? ???? ????."
     IDS_GENERAL_TRANSLATION_DLL_VERSION_MISMATCH_NORWEGIAN 
-                            "Den versjonen av den angitte oversettelsen DLL samsvarer ikke med den versjonen av kjørbare."
+                            "Den versjonen av den angitte oversettelsen DLL samsvarer ikke med den versjonen av kjï¿½rbare."
     IDS_GENERAL_TRANSLATION_DLL_VERSION_MISMATCH_PORTUGUESE 
-                            "A versão da tradução DLL especificada não coincide com a versão do executável."
+                            "A versï¿½o da traduï¿½ï¿½o DLL especificada nï¿½o coincide com a versï¿½o do executï¿½vel."
     IDS_GENERAL_TRANSLATION_DLL_VERSION_MISMATCH_ROMANIAN 
                             "versiunea de DLL traducere specificat nu se potriveste cu versiunea de executabil."
     IDS_GENERAL_TRANSLATION_DLL_VERSION_MISMATCH_RUSSIAN 
                             "?????? ?????????? DLL ??????? ?? ????????????? ?????? ???????????? ?????."
     IDS_GENERAL_TRANSLATION_DLL_VERSION_MISMATCH_SPANISH 
-                            "La versión de la DLL de traducción especificado no coincide con la versión del ejecutable."
+                            "La versiï¿½n de la DLL de traducciï¿½n especificado no coincide con la versiï¿½n del ejecutable."
     IDS_SPLITFILEDIALOG_SPLITTING "Splitting file..."
     IDS_SPLITFILEDIALOG_FINISHED "Finished"
     IDS_SPLITFILEDIALOG_CANCELLED "Cancelled"
